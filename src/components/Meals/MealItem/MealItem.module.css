@@ -1,0 +1,35 @@
+.meal {
+  justify-content: space-between;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  box-shadow : 1px 4px 10px 0px #9e9e9e29;
+  border:1px solid #ccc;
+  border-radius:4px;
+  width:28%;
+  display: inline-block;
+}
+.meal img{
+  width: 100%;
+  padding:10px;
+  border-radius: 4px;
+}
+.meal h3 {
+  margin: 0 0 0.25rem 0;
+}
+
+.description {
+  font-style: italic;
+}
+
+.price {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  color: #ad5502;
+  font-size: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .mealCard li{
+    width:90%;
+  }
+}
